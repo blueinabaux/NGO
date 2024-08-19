@@ -25,7 +25,7 @@ const OptionsPage = () => {
     return ( 
         <>
             <div className="optionsMain h-[100vh] w-full bg-red-500 flex justify-center items-center">
-                <div onClick={() => router.push('/')} className="donateSide h-full w-[50%] bg--500 flex justify-center items-center relative">
+                <div onClick={() => router.push('/donation')} className="donateSide h-full w-[50%] bg--500 flex justify-center items-center relative">
                     <Image className="donateImg absolute z-[1] h-[100%] w-[100%] object-cover grayscale-[100%] hover:grayscale-[30%]" src={donate} />
                     <h1 className="text-[10vw] text-white font-bold absolute z-[10]">DONATE</h1>
                 </div>
